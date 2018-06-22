@@ -6,13 +6,13 @@ All answers are written in Haskell, compiled and tested on MacOS High Sierra wit
 
 1. Follow the instruction to install `stack` or `Haskell Platform` at [here](https://www.haskell.org/downloads)
 2. `git clone https://github.com/dividedbynil/tests`
-2. `cd tests`
-3. `stack setup && stack install`
-4. run the program with
-  * `factorial 99` or `factorial <your input>`
-  *	`sorting < list.txt` or `sorting < <your input file location>`
-  * `matrix-rotation < matrix.txt` or `matrix-rotation < <your input file location>`
-5. Ask me anything that is unclear.
+3. `cd tests`
+4. `stack setup && stack install`
+5. run the program with
+   * `factorial 99` or `factorial <your input>`
+   * `sorting < list.txt` or `sorting < <your input file location>`
+   * `matrix-rotation < matrix.txt` or `matrix-rotation < <your input file location>`
+6. Ask me anything that is unclear.
 
 # Testing
 `stack test`
