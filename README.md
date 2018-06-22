@@ -91,11 +91,13 @@ The next line contains n integers separated by spaces.
 ### Sample Output #1
 
 > yes
+>
 > swap 1 2
 
 ### Sample Input #2
 
 > 3
+>
 > 3 1 2
 
 ### Sample Output #2
@@ -111,6 +113,7 @@ The next line contains n integers separated by spaces.
 ### Sample Output #3
 
 > yes
+>
 > reverse 2 5
 
 ### Explanation
