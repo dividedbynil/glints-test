@@ -22,4 +22,4 @@ All answers are written in Haskell, compiled and tested on MacOS High Sierra wit
 * sorting - 4 hours
 * matrix-rotation - 3 hours
 
-## Questions at [here](https://gist.github.com/seahyc/2a197e8c1c272739dba35c0b99998ef8)
+## [Questions](https://gist.github.com/seahyc/2a197e8c1c272739dba35c0b99998ef8)
