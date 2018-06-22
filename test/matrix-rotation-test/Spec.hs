@@ -16,7 +16,7 @@ spec_test = runIO testCases >>= mapM_ check
 testCases :: IO [(Int, Int, Int, [[Int]], String)]
 testCases = lines <$> readFile "test/matrix-rotation-test/tests.csv">>= mapM splitAndRead
   where
-    splitAndRead str = case splitOn " " str of
+    splitAndRead str = case words str of
       full@(_:_:_:rest)
         -> pure (m, n, r, map (map read . splitOn ",") $ take m rest, last rest)
         where
