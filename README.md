@@ -18,7 +18,7 @@ All answers are written in Haskell, compiled and tested on MacOS High Sierra wit
 `stack test`
 
 ## Time taken:
-* factorial - 1 hours
+* factorial - 1 hour
 * sorting - 4 hours
 * matrix-rotation - 3 hours
 
