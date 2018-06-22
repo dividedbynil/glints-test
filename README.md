@@ -1,8 +1,8 @@
-# Tests 1
+# Part 1
 
 All answers are written in Haskell, compiled and tested on MacOS High Sierra with stack 1.6.1 and GHC 8.2.2
 
-# Instruction
+# Instructions
 
 1. Follow the instruction to install `stack` or `Haskell Platform` at [here](https://www.haskell.org/downloads)
 2. `git clone https://github.com/dividedbynil/tests`
