@@ -21,3 +21,5 @@ All answers are written in Haskell, compiled and tested on MacOS High Sierra wit
 * factorial - 1 hours
 * sorting - 4 hours
 * matrix-rotation - 3 hours
+
+## Questions [here](https://gist.github.com/seahyc/2a197e8c1c272739dba35c0b99998ef8)
