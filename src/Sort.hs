@@ -28,5 +28,5 @@ sorting ls  = case findIndices (uncurry (>)) $ zip newLs ns of
   where
     newLs@(_:ns) =  -1 : ls ++ [1000001]
     newVec = V.fromList newLs
-    yes = printf "yes %s %d %d"
+    yes = printf "yes\n%s %d %d"
     verify list i j = if list == sort list then yes "swap" i j else "no"

@@ -1,17 +1,17 @@
-1,9,yes
-2,4 2,yes swap 1 2
-3,1 4 2,yes swap 2 3
-3,4 2 5,yes swap 1 2
-4,1 3 2 4,yes swap 2 3
-5,5 2 3 4 1,yes swap 1 5
-3,3 2 1,yes swap 1 3
-5,1 4 3 2 5,yes swap 2 4
-5,1 6 3 2 5,no
-3,1 4 0,no
-3,3 1 2,no
-6,1 5 4 3 2 6,yes reverse 2 5
-5,1 5 4 3 2,yes reverse 2 5
-5,5 4 3 2 1,yes reverse 1 5
-5,4 3 2 1 5,yes reverse 1 4
-5,5 4 2 3 1,no
-5,2 5 4 3 1,no
+1,9,yes,
+2,4 2,yes,swap 1 2
+3,1 4 2,yes,swap 2 3
+3,4 2 5,yes,swap 1 2
+4,1 3 2 4,yes,swap 2 3
+5,5 2 3 4 1,yes,swap 1 5
+3,3 2 1,yes,swap 1 3
+5,1 4 3 2 5,yes,swap 2 4
+5,1 6 3 2 5,no,
+3,1 4 0,no,
+3,3 1 2,no,
+6,1 5 4 3 2 6,yes,reverse 2 5
+5,1 5 4 3 2,yes,reverse 2 5
+5,5 4 3 2 1,yes,reverse 1 5
+5,4 3 2 1 5,yes,reverse 1 4
+5,5 4 2 3 1,no,
+5,2 5 4 3 1,no,

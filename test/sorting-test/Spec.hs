@@ -17,6 +17,8 @@ testCases :: IO [([Int], String)]
 testCases = lines <$> readFile "test/sorting-test/tests.csv">>= mapM splitByComma
   where
     splitByComma str = case splitOn "," str of
-      [_, input, expected] -> pure (intList, expected)
+      [_, input, expected, answer]
+        -> if null answer then pure (intList, expected)
+           else pure (intList, printf "%s\n%s" expected answer)
         where intList = map read $ words input
       _ -> fail "Invalid test case"
