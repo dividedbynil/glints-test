@@ -1,0 +1,72 @@
+name:                Tests
+version:             0.1.0.0
+github:              "dividedbynil/tests"
+license:             BSD3
+author:              "Kane ONG"
+copyright:           "2018 Kane ONG"
+description:         Please see the README on GitHub at <https://github.com/dividedbynil/tests#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- split
+- array
+- tasty
+- tasty-discover
+- tasty-hspec
+- vector
+
+ghc-options:
+- -Wall
+- -O3
+
+library:
+  source-dirs: src
+
+executables:
+  factorial:
+    main:                Main.hs
+    source-dirs:         app/factorial
+    dependencies:        Tests
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  matrix-rotation:
+    main:                Main.hs
+    source-dirs:         app/matrix-rotation
+    dependencies:        Tests
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  sorting:
+    main:                Main.hs
+    source-dirs:         app/sorting
+    dependencies:        Tests
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+tests:
+  factorial-test:
+    main:                Main.hs
+    source-dirs:         test/factorial-test
+    dependencies:        Tests
+
+  matrix-rotation-test:
+    main:                Main.hs
+    source-dirs:         test/matrix-rotation-test
+    dependencies:        Tests
+
+  sorting-test:
+    main:                Main.hs
+    source-dirs:         test/sorting-test
+    dependencies:        Tests
+
+extra-source-files:
+  - test/factorial-test/tests.csv
+  - test/matrix-rotation-test/tests.csv
+  - test/sorting-test/tests.csv

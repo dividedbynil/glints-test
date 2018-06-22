@@ -1,0 +1,5 @@
+.stack-work/
+Tests.cabal
+*~
+
+*.sh
