@@ -17,7 +17,7 @@ dependencies:
 
 ghc-options:
 - -Wall
-- -O3
+- -Odph
 
 library:
   source-dirs: src
