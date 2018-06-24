@@ -26,7 +26,7 @@ sorting ls  = case findIndices (uncurry (>)) $ zip newLs ns of
       [a, b, p, q] = map (newVec V.!) [i-1, lastIndex, i, lastIndex + 1]
 
   where
-    newLs@(_:ns) =  -1 : ls ++ [1000001]
+    newLs@(_:ns) =  minBound : ls ++ [maxBound]
     newVec = V.fromList newLs
     yes = printf "yes\n%s %d %d"
     verify list i j = if list == sort list then yes "swap" i j else "no"
