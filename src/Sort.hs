@@ -18,8 +18,7 @@ sorting ls  = case findIndices (uncurry (>)) $ zip newLs ns of
       z' = z + 1
 
   more@(i:is)
-    | more /= [i..last is] -> "no"
-    | a < b && p < q -> yes "reverse" i lastIndex
+    | more == [i..last is], a < b && p < q -> yes "reverse" i lastIndex
     | otherwise -> "no"
     where
       lastIndex = last is + 1
