@@ -11,7 +11,7 @@ rotate m n r matrix = chunksOf n newList
     matrixArray = listArray (1, m*n) $ concat matrix
     sortedIndices = elems . array (1, m*n) $ concat switchAll
     switchAll = map (switch r) flattenedIndices
-    flattenedIndices = map concat $ chunksOf n (flatten matrixIndices)
+    flattenedIndices = map concat $ chunksOf 4 (flatten matrixIndices)
     matrixIndices = chunksOf n [1 .. m*n]
 
 switch :: Int -> [a] -> [(a, a)]
