@@ -5,8 +5,8 @@ All answers are written in Haskell, compiled and tested on MacOS High Sierra wit
 # Instructions
 
 1. Follow the instruction to install `stack` or `Haskell Platform` at [here](https://www.haskell.org/downloads)
-2. `git clone https://github.com/dividedbynil/tests`
-3. `cd tests`
+2. `git clone https://github.com/dividedbynil/glints-test`
+3. `cd glints-test`
 4. `stack setup && stack install`
 5. run the program with
    * `factorial 99` or `factorial <your input>`
